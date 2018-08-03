@@ -11,6 +11,7 @@ The following external libaries are used for implementation:
 4) scikit-learn v0.19.1
 5) ImageIO v2.3.0
 6) NumPy v1.14.3
+7) Pickle (version unknown, but most should work)
 
 ### Configuration
 Certain configuration is required before network files can be executed:
