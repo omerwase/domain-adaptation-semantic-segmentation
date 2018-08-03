@@ -21,9 +21,9 @@ Certain configuration is required before network files can be executed:
 4) For single-domain implementaton, either CARLA or BDD datasets can be used. Depending on which dataset is being trained on, image configuration parameters must be commented/uncommented. Details can be found within the code files themselves. Domain adaptation implementation requires both datasets and no image parameter configuration is required.
 
 ### Included Files
-1) helper_functions_bdd.py: helper functions used for loading and processing BDD images.
-2) helper_functions_carla.py: helper functions used for loading and processing CARLA images.
-3) network_single_domain.ipynb: source code for creating and training network in single-domain implementation.
-4) retrain_single_domain.ipynb: source code for retraining saved single-domain models.
-5) network_domain_adaptation.ipynb: source code for creating and training network in domain adaptation implementation.
-6) retrain_domain_adaptation.ipynb: source code for retraining saved domain adaptation models.
+1) **helper_functions_bdd.py**: helper functions used for loading and processing BDD images.
+2) **helper_functions_carla.py**: helper functions used for loading and processing CARLA images.
+3) **network_single_domain.ipynb**: source code for creating and training network in single-domain implementation.
+4) **retrain_single_domain.ipynb**: source code for retraining saved single-domain models.
+5) **network_domain_adaptation.ipynb**: source code for creating and training network in domain adaptation implementation.
+6) **retrain_domain_adaptation.ipynb**: source code for retraining saved domain adaptation models.
