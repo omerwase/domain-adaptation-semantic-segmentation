@@ -18,7 +18,7 @@ Certain configuration is required before network files can be executed:
 1) Datasets are not included due to their size and must be obtained seperately. CARLA images are collected from the [CARLA Simulator](http://www.carla.org). The real-world dataset can be found from [Berkeley Deep Drive](http://bdd-data.berkeley.edu/). They have datasets for multiple preception tasks, only the semantic segmentation dataset is used.
 2) Pretrained weights are used for network initialization, courtesy of [Andrea Palazzi](https://github.com/ndrplz/dilation-tensorflow), and can be found [here](https://drive.google.com/open?id=0Bx9YaGcDPu3XR0d4cXVSWmtVdEE).
 3) The paths to these weights and data files must be set in the source code. Instructions on this can be found within the code files themselves.
-4) For single-domain implementaton, either CARLA or BDD datasets can be used. Depending on which dataset is being trained on, image configuration must be commented/uncommented. Details can be found within the code files themselves. Domain adaptation implementation requires both datasets.
+4) For single-domain implementaton, either CARLA or BDD datasets can be used. Depending on which dataset is being trained on, image configuration parameters must be commented/uncommented. Details can be found within the code files themselves. Domain adaptation implementation requires both datasets and no image parameter configuration is required.
 
 ### Included Files
 1) helper_functions_bdd.py: helper functions used for loading and processing BDD images.
