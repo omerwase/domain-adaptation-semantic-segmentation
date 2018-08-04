@@ -50,8 +50,8 @@ def apply_color(label):
 def image_preprocessing(image, hist=True, denoise=False):
     """
     Performs the following pre-processing techniques:
-    1) Subtract mean from each pixel per color channel. Default values obtained through dataset analysis.
-    2) histogram equalization
+    1) Histogram equalization
+    2) Denoising
     
     :param image: original image
     :param means: list of color channel means (R, G, B)
