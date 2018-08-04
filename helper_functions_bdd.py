@@ -12,7 +12,7 @@ import cv2
 
 def apply_color(label):
     """
-    Given a 2D prediction label of argmax values, returns a 3D color image
+    Given a 2D label of argmax values, returns a 3D color image
     Assumes 10 classes in prediction:
         0   Background
         1   Vehicles
